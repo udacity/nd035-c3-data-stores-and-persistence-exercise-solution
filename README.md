@@ -1,37 +1,41 @@
 # Purpose of This Repo
 
-This repo is meant to be used to keep things organized during content development and act as the source of truth for all projects and exercises related to this course.
+This repo is meant to be used to keep things organized during content development and act as the source of truth for exercises related to the **Data-Stores-and-Persistence** course in Java Web Developer ND035 v4 Nanodegree.
 
 ## Folder Structure
+Note that there are no exercises present in the introductory lesson **Introduction to Data Stores & Persistence**, therefore we have started the lesson numbers from 0. 
 
-### Lesson Folder
-
-This repo contains a folder for each `lesson` and one `project` folder.
-
-Example
+```bash
+.
+├── L0 Introduction to Data Stores & Persistence # No exercises are present in this lesson. 
+├── L1 Data in Multitier Architecture
+│   └── exercises
+│       ├── README.md
+│       ├── demo
+│       ├── solution
+│       └── starter
+├── L2 Java Persistence API (JPA)
+│   └── exercises
+│       ├── README.md
+│       ├── solution
+│       └── starter
+├── L3 Connecting To Data Sources
+│   └── exercises
+│       ├── README.md
+│       ├── solution
+│       └── starter
+├── L4 Persistence Without JPA
+│   ├── demo
+│   │   ├── pom.xml
+│   │   └── src
+│   └── exercises
+│       ├── README.md
+│       ├── solution
+│       └── starter
+├── LICENSE.md
+└── README.md
 ```
-lesson-1-hello
-lesson-2-world
-lesson-3-foo
-lesson-4-bar
-project
-```
 
-Each `lesson` folder is named using the naming convention of `lesson-#-name-of-lesson`.
 
-Example
-```
-lesson-1-hello
-```
-
-Four lesson folders have been provided as a template; However, you may need to add more or possibly use less than four depending on what is needed.
-
-If you require an additional lesson folder, you can make a copy of the folder and paste it into the root directory.
-
-### Exercises Folder
-
-Each `lesson` folder contains an `exercises` folder. This `exercises` folder should contain all files and instructions necessary for the exercises along with the solution. The solutions for these exercises will be shared with students. See the `README` in the `exercises` folder for information about folder structure.
-
-### Project Folder
-
-The `project` folder should contain all files and instructions necessary for setup. If possible, a set of instructions should be provided for both Udacity workspaces and a way to work locally (for both MacOS and Windows OS). At a minimum, one set of instructions should be provided. A `README` template has been provided in the project folder. This template layout should be used to write your README.
+## Contributing to the Repository
+Feel free to submit a PR should you find any errors or want to suggest any edits. 
