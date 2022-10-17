@@ -14,7 +14,7 @@ Note that there are no exercises present in the introductory lesson **Introducti
 │       ├── demo
 │       ├── solution
 │       └── starter
-├── L2 Java Persistence API (JPA)
+├── L2 Java Persistence API
 │   └── exercises
 │       ├── README.md
 │       ├── solution
