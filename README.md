@@ -1,6 +1,6 @@
-# Purpose of This Repo
+# (cd0628) Data Stores & Persistence - Exercises
 
-This repo is meant to be used to keep things organized during content development and act as the source of truth for exercises related to the **Data-Stores-and-Persistence** course in Java Web Developer ND035 v4 Nanodegree.
+This repo is meant to be used to keep things organized during content development and act as the source of truth for exercises related to the **Data-Stores-and-Persistence** course in **Java Web Developer ND035** v4 Nanodegree.
 
 ## Folder Structure
 Note that there are no exercises present in the introductory lesson **Introduction to Data Stores & Persistence**, therefore we have started the lesson numbers from 0. 
