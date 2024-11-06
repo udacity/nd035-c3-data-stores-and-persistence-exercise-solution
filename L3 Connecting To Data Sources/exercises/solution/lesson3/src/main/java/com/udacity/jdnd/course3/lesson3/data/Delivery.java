@@ -3,7 +3,7 @@ package com.udacity.jdnd.course3.lesson3.data;
 import org.hibernate.annotations.Nationalized;
 import org.hibernate.annotations.Type;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.time.LocalDateTime;
 import java.util.List;
 
