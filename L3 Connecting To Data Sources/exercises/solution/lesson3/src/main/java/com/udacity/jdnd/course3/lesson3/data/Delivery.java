@@ -19,7 +19,7 @@ public class Delivery {
     @Column(name = "address_full", length = 500)
     private String address;
     private LocalDateTime deliveryTime;
-    @Type(type = "yes_no")
+    @Convert(converter = org.hibernate.type.NumericBooleanConverter.class)
     private Boolean completed = false;
 
     // changed CascadeType to ALL
