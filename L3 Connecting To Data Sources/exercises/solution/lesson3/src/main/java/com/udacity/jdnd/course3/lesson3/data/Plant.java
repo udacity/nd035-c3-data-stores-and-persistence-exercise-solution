@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonView;
 import com.udacity.jdnd.course3.lesson3.controller.Views;
 import org.hibernate.annotations.Nationalized;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.math.BigDecimal;
 
 @Entity
