@@ -1,6 +1,6 @@
 package com.udacity.jdnd.course3.exercise1.entities;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.util.List;
 
 @Entity

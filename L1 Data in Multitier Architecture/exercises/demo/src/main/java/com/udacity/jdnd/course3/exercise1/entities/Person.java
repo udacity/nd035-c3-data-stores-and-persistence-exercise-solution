@@ -2,7 +2,7 @@ package com.udacity.jdnd.course3.exercise1.entities;
 
 import org.hibernate.annotations.Type;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.util.List;
 
 @Entity
