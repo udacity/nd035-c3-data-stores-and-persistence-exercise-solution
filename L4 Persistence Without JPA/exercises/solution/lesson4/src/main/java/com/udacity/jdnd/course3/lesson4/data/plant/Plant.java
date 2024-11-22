@@ -5,7 +5,7 @@ import com.udacity.jdnd.course3.lesson4.controller.Views;
 import com.udacity.jdnd.course3.lesson4.data.delivery.Delivery;
 import org.hibernate.annotations.Nationalized;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.math.BigDecimal;
 
 @Entity

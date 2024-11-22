@@ -2,9 +2,8 @@ package com.udacity.jdnd.course3.lesson4.data.delivery;
 
 import com.udacity.jdnd.course3.lesson4.data.plant.Plant;
 import org.hibernate.annotations.Nationalized;
-import org.hibernate.annotations.Type;
-
-import javax.persistence.*;
+import org.hibernate.type.YesNoConverter;
+import jakarta.persistence.*;
 import java.time.LocalDateTime;
 import java.util.List;
 
@@ -20,7 +19,7 @@ public class Delivery {
     @Column(name = "address_full", length = 500)
     private String address;
     private LocalDateTime deliveryTime;
-    @Type(type = "yes_no")
+    @Convert(converter = YesNoConverter.class)
     private Boolean completed = false;
 
     // changed CascadeType to ALL

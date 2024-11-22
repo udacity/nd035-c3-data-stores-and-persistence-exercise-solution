@@ -1,24 +1,20 @@
-DROP TABLE outfit;
-DROP TABLE person;
+DROP TABLE IF EXISTS outfit;
+DROP TABLE IF EXISTS person;
 
 CREATE TABLE IF NOT EXISTS person (
-    id bigint NOT NULL AUTO_INCREMENT,
-    age integer,
-    favorite_composer varchar(255),
-    name varchar(255),
-    primary key (id)
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    age INTEGER,
+    favorite_composer VARCHAR(255),
+    name VARCHAR(255)
 );
 
 CREATE TABLE IF NOT EXISTS outfit (
-    id bigint NOT NULL AUTO_INCREMENT,
-    person_id bigint NOT NULL,
-    gloves varchar(255),
-    hat varchar(255),
-    legs varchar(255),
-    shoes varchar(255),
-    top varchar(255),
-    primary key (id),
-    FOREIGN KEY (person_id)
-        REFERENCES person(id)
-        ON DELETE CASCADE
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    person_id BIGINT NOT NULL,
+    gloves VARCHAR(255),
+    hat VARCHAR(255),
+    legs VARCHAR(255),
+    shoes VARCHAR(255),
+    top VARCHAR(255),
+    FOREIGN KEY (person_id) REFERENCES person(id) ON DELETE CASCADE
 );
