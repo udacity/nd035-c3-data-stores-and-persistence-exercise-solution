@@ -17,7 +17,8 @@ public class DataSourceConfig {
     @ConfigurationProperties(prefix="com.udacity.datasource")
     public DataSource getDataSource() {
         DataSourceBuilder dsb = DataSourceBuilder.create();
-        dsb.url("jdbc:mysql://localhost:3306/plant");
+        dsb.url("jdbc:h2:mem:plant")
+        .username("sa") .password("") .driverClassName("org.h2.Driver") .build();
         return dsb.build();
     }
 }

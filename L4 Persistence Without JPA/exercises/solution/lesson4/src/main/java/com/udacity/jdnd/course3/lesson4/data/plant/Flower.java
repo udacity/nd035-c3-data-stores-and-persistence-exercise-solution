@@ -1,6 +1,6 @@
 package com.udacity.jdnd.course3.lesson4.data.plant;
 
-import javax.persistence.Entity;
+import jakarta.persistence.Entity;
 
 @Entity
 public class Flower extends Plant {

@@ -4,7 +4,7 @@ import com.udacity.jdnd.course3.exercise4.data.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.transaction.Transactional;
+import jakarta.transaction.Transactional;
 
 @Service
 @Transactional
